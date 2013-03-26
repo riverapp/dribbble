@@ -1,0 +1,18 @@
+{
+	"name": 				"Dribbble",
+	"identifier":		"me.danpalmer.River.plugins.Dribbble",
+	"description":  "See shots from the players you follow in your timeline.",
+	"titleImage":   "dribbble.png",
+	"developer": {
+		"name":				"Dan Palmer",
+		"email":			"dan.palmer@me.com",
+		"website":		"http://danpalmer.me/River/Dribbble"
+	},
+	"icons": {
+		"small":			"icons/dribbble16.png",
+		"large":			"icons/dribbble32.png"
+	},
+	"providers": {
+		"stream": "Dribbble.coffee"
+	}
+}
