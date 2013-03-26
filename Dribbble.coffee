@@ -43,6 +43,7 @@ class Dribbble
 				shot.imageURL = d.image_url
 				shot.imageHeight = d.height
 				shot.imageWidth = d.width
+				shot.id = d.id
 				shots.push(shot)
 			callback(null, shots)
 
